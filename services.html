@@ -14,47 +14,50 @@
     <title>Construction Company - Services</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Construction Company</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="/">Handyman in Richmond</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <header class="showcase" id="services">
+    <div class="showcase" id="services">
       <div class="container">
         <h1 class="text-primary mb-5">Our Services</h1>
       </div>
-    </header>
+    </div>
 
     <section id="services-list">
       <div class="container">
@@ -123,23 +126,54 @@
       </div>
     </section>
 
-    <footer class="bg-light mt-5">
-      <div class="container text-center">
-        <ul class="list-inline mb-4">
-          <li class="list-inline-item">
-            <a href="#">CONTACT</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">SUBCONTRACTORS</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">TERMS OF SERVICE</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">PRIVACY POLICY</a>
-          </li>
-        </ul>
-        <p>&copy; 2023 Construction Company. All Rights Reserved.</p>
+      <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="container p-4 elementMargin">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <a class="text-uppercase" href="contact.html"><h5>Contact US </h5></a>
+            <p>
+              Phone: (123) 456-7890 <br />
+              Email: info@constructionco.com
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Services</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Kitchen Remodeling</a>
+              </li>
+              <li>
+                <a href="#">Bathroom Remodeling</a>
+              </li>
+              <li>
+                <a href="#">Flooring Installation</a>
+              </li>
+              <li>
+                <a href="#">Painting</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Legal</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Terms of Service</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 RVA Handyman Co.
       </div>
     </footer>
 
