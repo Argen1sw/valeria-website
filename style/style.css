@@ -1,12 +1,67 @@
+/*Common CSS---------------------------------------- */
 
+/* --------------------------------------- */
+/* ----------- Main tags --------------- */
+/* --------------------------------------- */
 
-
-.showcase {
-    margin-top: 100px;
-}
 
 .elementMargin {
     margin-top: 30px;
 }
 
+.cover-img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
 
+
+ /* Small size displays  ----------------------------------- */
+@media only screen and (max-width: 730px){
+
+}
+
+/* Medium size displays ---------------------------------------- */
+@media only screen and (min-width: 731px) and (max-width: 1299px){
+
+}
+
+/* Big size displays -------------------------------------- */
+@media only screen and (min-width: 1300px){
+
+}
+
+
+/* --------------------------------------- */
+/* ----------- nav bar CSS --------------- */
+/* --------------------------------------- */
+
+/* Small size displays  ----------------------------------- */
+@media only screen and (max-width: 730px){
+}
+
+/* Medium size displays ---------------------------------------- */
+@media only screen and (min-width: 731px) and (max-width: 1299px){
+}
+
+/* Big size displays -------------------------------------- */
+@media only screen and (min-width: 1300px){
+}
+
+
+/* --------------------------------------- */
+/* ----------- Index webpage CSS --------------- */
+/* --------------------------------------- */
+
+/* Small size displays  ----------------------------------- */
+@media only screen and (max-width: 730px){
+}
+
+/* Medium size displays ---------------------------------------- */
+@media only screen and (min-width: 731px) and (max-width: 1299px){
+}
+
+/* Big size displays -------------------------------------- */
+@media only screen and (min-width: 1300px){
+} 
