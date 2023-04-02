@@ -14,6 +14,7 @@
     object-position: center;
     height: 100%;
     width: 100%;
+    padding-top: 100px;
 }
 
 /* Nav bar CSS */
@@ -26,6 +27,18 @@
 .navbar {
     background-color: black;
 }
+
+
+
+/* underconstruction picture */
+.message {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    text-shadow: 2px 2px #000000;
+  }
+
 
 
 
