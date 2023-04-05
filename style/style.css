@@ -1,9 +1,3 @@
-/*Common CSS---------------------------------------- */
-
-/* --------------------------------------- */
-/* ----------- Main tags --------------- */
-/* --------------------------------------- */
-
 
 .elementMargin {
     margin-top: 30px;
@@ -17,7 +11,35 @@
     padding-top: 100px;
 }
 
-/* Nav bar CSS */
+/* --------------------------------------- */
+/* ----------- Global CSS ALL viewports--------------- */
+/* --------------------------------------- */
+
+/* ----------------- navbar ----------------------- */
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(184 199 60 / 50%);
+}
+
+
+/* ----------------- Footer ----------------------- */
+.lower-footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:rgb(184 199 60 / 50%);
+    text-decoration: none;
+}
+
+
+
 
 
 
@@ -28,14 +50,18 @@
     text-align: center;
     margin-top: 20%;
     text-shadow: 2px 2px #000000;
-  }
+}
 
 
 
 
  /* Small size displays  ----------------------------------- */
 @media only screen and (max-width: 730px){
-    
+
+
+    /* --------------------------------------- */
+    /* ----------- nav bar CSS --------------- */
+    /* --------------------------------------- */
     .navbar {
         background-color: black;
     }
@@ -43,6 +69,10 @@
     .logo-img {
         max-height: 60px; /* adjust to your preferred height */
         width: auto;
+    }
+
+    .nav-link:hover {
+        color: rgb(184 199 60 / 50%);
     }
 
 }
@@ -50,6 +80,10 @@
 /* Medium size displays ---------------------------------------- */
 @media only screen and (min-width: 731px) and (max-width: 1299px){
 
+
+    /* --------------------------------------- */
+    /* ----------- nav bar CSS --------------- */
+    /* --------------------------------------- */
     .navbar {
         background-color: black;
     }
@@ -57,11 +91,18 @@
     .logo-img {
         max-height: 60px; /* adjust to your preferred height */
         width: auto;
+    }
+    .nav-link:hover {
+        color: rgb(184 199 60 / 50%);
     }
 }
 
 /* Big size displays -------------------------------------- */
 @media only screen and (min-width: 1300px){
+
+    /* --------------------------------------- */
+    /* ----------- nav bar CSS --------------- */
+    /* --------------------------------------- */
     .navbar {
         background-color: black;
     }
@@ -70,7 +111,23 @@
         max-height: 60px; /* adjust to your preferred height */
         width: auto;
     }
+    .nav-link:hover {
+        color: rgb(184 199 60 / 50%);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* --------------------------------------- */
