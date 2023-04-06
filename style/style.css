@@ -1,19 +1,8 @@
 
-.elementMargin {
-    margin-top: 30px;
-}
 
-.cover-img {
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
-    width: 100%;
-    padding-top: 100px;
-}
-
-/* --------------------------------------- */
+/* --------------------------------------------------- */
 /* ----------- Global CSS ALL viewports--------------- */
-/* --------------------------------------- */
+/* -------------------------------------------------- */
 
 /* ----------------- navbar ----------------------- */
 
@@ -39,17 +28,31 @@ footer a:hover {
 }
 
 
+/* ------------------------- index image ---------------- */
 
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
 
+.hero{
+    background-color: black;
+    height: 80vh;
+    max-height: 40rem;
 
+    
+}
 
-/* underconstruction picture */
-.message {
-    font-size: 5em;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20%;
-    text-shadow: 2px 2px #000000;
+.cover-img {
+    opacity: .69;
+    height: 100%;
+    width: 100%;
+    /* padding-top: 50px; */
+    object-fit: cover;
+    object-position: bottom right;
 }
 
 
@@ -75,6 +78,12 @@ footer a:hover {
         color: rgb(184 199 60 / 50%);
     }
 
+
+
+    /* --------------------------------------- */
+    /* ----------- index CSS --------------- */
+    /* --------------------------------------- */
+
 }
 
 /* Medium size displays ---------------------------------------- */
@@ -95,6 +104,14 @@ footer a:hover {
     .nav-link:hover {
         color: rgb(184 199 60 / 50%);
     }
+
+    
+
+
+    /* --------------------------------------- */
+    /* ----------- index CSS --------------- */
+    /* --------------------------------------- */
+
 }
 
 /* Big size displays -------------------------------------- */
@@ -114,6 +131,17 @@ footer a:hover {
     .nav-link:hover {
         color: rgb(184 199 60 / 50%);
     }
+
+
+
+    
+    /* --------------------------------------- */
+    /* ----------- index CSS --------------- */
+    /* --------------------------------------- */
+
+
+
+
 }
 
 
