@@ -28,7 +28,7 @@ footer a:hover {
 }
 
 
-/* ------------------------- index image ---------------- */
+/* --------------------- index image ------------------- */
 
 .container-fluid{
     padding-right: 0px;
@@ -38,23 +38,35 @@ footer a:hover {
     
 }
 
-.hero{
-    background-color: black;
-    height: 80vh;
-    max-height: 40rem;
-
-    
-}
-
 .cover-img {
-    opacity: .69;
+    background-color: black;
+    opacity: .90;
     height: 100%;
     width: 100%;
-    /* padding-top: 50px; */
-    object-fit: cover;
-    object-position: bottom right;
+    padding-top: 50px;
 }
 
+.image-container{
+    overflow: hidden;
+}
+
+.title-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: .2px;
+    line-height: .9em;
+    max-width: 40vw;
+}
+
+/* --------------------- index portfolio ------------------- */
+
+.elementMargin{
+    margin-top: 30px;
+}
 
 
 
@@ -83,7 +95,12 @@ footer a:hover {
     /* --------------------------------------- */
     /* ----------- index CSS --------------- */
     /* --------------------------------------- */
-
+    .image-container h2{
+        font-size: 36px !important;
+        font-family: baskerville;
+        font-weight: 300;
+    }
+    
 }
 
 /* Medium size displays ---------------------------------------- */
@@ -111,7 +128,12 @@ footer a:hover {
     /* --------------------------------------- */
     /* ----------- index CSS --------------- */
     /* --------------------------------------- */
-
+    .image-container h2{
+        font-size: 65px !important;
+        font-family: baskerville;
+        font-weight: 300;
+    }
+    
 }
 
 /* Big size displays -------------------------------------- */
@@ -133,60 +155,18 @@ footer a:hover {
     }
 
 
-
     
     /* --------------------------------------- */
     /* ----------- index CSS --------------- */
     /* --------------------------------------- */
-
+    .image-container h2{
+        font-size: 65px !important;
+        font-family: baskerville;
+        font-weight: 300;
+    }
+    
 
 
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --------------------------------------- */
-/* ----------- nav bar CSS --------------- */
-/* --------------------------------------- */
-
-/* Small size displays  ----------------------------------- */
-@media only screen and (max-width: 730px){
-}
-
-/* Medium size displays ---------------------------------------- */
-@media only screen and (min-width: 731px) and (max-width: 1299px){
-}
-
-/* Big size displays -------------------------------------- */
-@media only screen and (min-width: 1300px){
-}
-
-
-/* --------------------------------------- */
-/* ----------- Index webpage CSS --------------- */
-/* --------------------------------------- */
-
-/* Small size displays  ----------------------------------- */
-@media only screen and (max-width: 730px){
-}
-
-/* Medium size displays ---------------------------------------- */
-@media only screen and (min-width: 731px) and (max-width: 1299px){
-}
-
-/* Big size displays -------------------------------------- */
-@media only screen and (min-width: 1300px){
-} 
