@@ -62,16 +62,28 @@ footer a:hover {
     max-width: 40vw;
 }
 
+
 /* --------------------- index portfolio ------------------- */
 
 .elementMargin{
-    margin-top: 30px;
+    margin-top: 80px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(184 199 60 / 50%);
+    text-decoration: none;
 }
 
 
 
+
  /* Small size displays  ----------------------------------- */
-@media only screen and (max-width: 730px){
+@media only screen and (max-width: 767px){
 
 
     /* --------------------------------------- */
@@ -100,11 +112,15 @@ footer a:hover {
         font-family: baskerville;
         font-weight: 300;
     }
+
+    .card{
+        margin-top: 30px;
+    }    
     
 }
 
 /* Medium size displays ---------------------------------------- */
-@media only screen and (min-width: 731px) and (max-width: 1299px){
+@media only screen and (min-width: 768px) and (max-width: 1180px){
 
 
     /* --------------------------------------- */
@@ -133,11 +149,24 @@ footer a:hover {
         font-family: baskerville;
         font-weight: 300;
     }
+
+    .card-title{
+        font-size: 1.1rem;
+    }
     
+    .second-containerr{
+        margin-top: 50px;
+    }
+
+    .img-fluid {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
 }
 
 /* Big size displays -------------------------------------- */
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1181px){
 
     /* --------------------------------------- */
     /* ----------- nav bar CSS --------------- */
@@ -164,9 +193,19 @@ footer a:hover {
         font-family: baskerville;
         font-weight: 300;
     }
-    
 
+    .card-title{
+        font-size: 1.5rem;
+    }
 
+    .second-containerr{
+        margin-top: 50px;
+    }
 
+    .img-fluid {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
 }
 
