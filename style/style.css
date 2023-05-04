@@ -81,6 +81,12 @@ a:hover {
 
 
 
+/* --------------------- Contact form container ------------------- */
+
+.form{
+    padding-top: 100px;
+
+}
 
  /* Small size displays  ----------------------------------- */
 @media only screen and (max-width: 767px){
